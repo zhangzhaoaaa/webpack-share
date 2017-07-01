@@ -1,0 +1,42 @@
+{
+  "name": "webpack-share",
+  "version": "1.0.0",
+  "description": "webpack share demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:s0:sc": "webpack --config ./share-0/simple-config/webpack.config.js",
+    "build:s0:sl": "webpack --config ./share-0/simple-loader/webpack.config.js",
+    "build:s0:sp": "webpack --config ./share-0/simple-plugin/webpack.config.js",
+    "build:s0:es6": "webpack --config ./share-0/simple-es6/webpack.config.js",
+    "build:s0:ss": "webpack --config ./share-0/simple-sass/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangzhaoaaa/webpack-share.git"
+  },
+  "keywords": [
+    "webpack",
+    "share",
+    "demo"
+  ],
+  "author": "zeromike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhangzhaoaaa/webpack-share/issues"
+  },
+  "homepage": "https://github.com/zhangzhaoaaa/webpack-share#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.5.2",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "html-webpack-plugin": "^2.29.0",
+    "node-sass": "^4.5.3",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.0.0"
+  }
+}
