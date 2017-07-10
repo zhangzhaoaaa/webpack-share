@@ -9,7 +9,14 @@
     "build:s0:sl": "webpack --config ./share-0/simple-loader/webpack.config.js",
     "build:s0:sp": "webpack --config ./share-0/simple-plugin/webpack.config.js",
     "build:s0:es6": "webpack --config ./share-0/simple-es6/webpack.config.js",
-    "build:s0:ss": "webpack --config ./share-0/simple-sass/webpack.config.js"
+    "build:s0:ss": "webpack --config ./share-0/simple-sass/webpack.config.js",
+    "build:s1:e0": "webpack --config ./share-1/entry-0/webpack.config.js",
+    "build:s1:e1": "webpack --config ./share-1/entry-1/webpack.config.js",
+    "build:s1:e2": "webpack --config ./share-1/entry-2/webpack.config.js",
+    "build:s1:o0": "webpack --config ./share-1/output-0/webpack.config.js",
+    "build:s1:o1": "webpack --config ./share-1/output-1/webpack.config.js",
+    "build:s1:l0": "webpack --config ./share-1/loader-0/webpack.config.js",
+    "build:s1:l1": "webpack --config ./share-1/loader-1/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -29,7 +36,9 @@
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.4",
     "extract-text-webpack-plugin": "^2.1.2",
     "html-webpack-plugin": "^2.29.0",
@@ -38,5 +47,10 @@
     "sass-loader": "^6.0.6",
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
   }
 }
